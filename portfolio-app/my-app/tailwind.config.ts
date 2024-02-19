@@ -21,6 +21,7 @@ const config: Config = {
         'lightBlue': '#00A8FF',
         'darkBlue' : '#001A38',
         'mediumBlue' : '#002E63',
+        'lightGray' : '#C7C7C7',
       },
     },
   },

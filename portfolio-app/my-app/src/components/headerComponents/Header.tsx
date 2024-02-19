@@ -38,7 +38,7 @@ export const Header = () => {
 
                         {openMenu? <div className="w-screen h-screen bg-black/20 fixed"></div> : <></>}
 
-                        <div className={`flex gap-x-4 md:flex-col md:bg-darkBlue md:h-screen md:gap-y-3 md:w-64 md:justify-center ${openMenu? 'md:absolute md:left-0':'duration-300 transition-all md:ml-[-12000px]'}`}>
+                        <div className={`flex gap-x-4 md:flex-col md:bg-darkBlue md:h-screen md:gap-y-3 md:w-64 md:justify-center ${openMenu? 'md:absolute md:left-0':'md:ml-[-12000px]'}`}>
 
                             <div>
                                 <Link texto="Sobre" link={"#/"} />
