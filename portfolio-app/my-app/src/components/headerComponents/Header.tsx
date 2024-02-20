@@ -1,6 +1,6 @@
 'use client'
 
-import { Link } from "./Link"
+import { Link } from "./link"; 
 import { LuMenu } from "react-icons/lu";
 import { IoIosCloseCircleOutline } from "react-icons/io";
 import Image from "next/image"
