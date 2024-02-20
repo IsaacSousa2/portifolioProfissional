@@ -13,7 +13,7 @@ export const Hero = () => {
 
         <div className="py-16 px-8 md:px-4 flex items-center justify-between md:flex-col">
 
-            <div className="pl-14 md:px-4 ">
+            <div className="px-4 md:px-6 ">
 
                 <div className="py-2">
                     <Comments text="Olá, meu nome é" />
@@ -28,14 +28,14 @@ export const Hero = () => {
                 </div>
                 
                 <div className="py-2"> 
-                    <p className="text-lightGray max-w-[600px] md:max-w-[450px]">Sou uma pessoa impulsionada pela motivação e flexibilidade, pronta para abraçar <span className="text-white">desafios</span> que enriqueçam minha jornada. Nutro uma paixão genuína pelo <span className="text-white">aprendizado</span> constante e me esforço para entregar resultados excepcionais. Com uma atitude positiva e uma <span className="text-white">mentalidade</span> construtiva, estou preparado para deixar uma marca significativa, contribuindo de maneira notável e conquistando feitos <span className="text-white">extraordinários</span>.</p>
+                    <p className="text-lightGray max-w-[600px] md:max-w-[400px]">Sou uma pessoa impulsionada pela motivação e flexibilidade, pronta para abraçar <span className="text-white">desafios</span> que enriqueçam minha jornada. Nutro uma paixão genuína pelo <span className="text-white">aprendizado</span> constante e me esforço para entregar resultados excepcionais. Com uma atitude positiva e uma <span className="text-white">mentalidade</span> construtiva, estou preparado para deixar uma marca significativa, contribuindo de maneira notável e conquistando feitos <span className="text-white">extraordinários</span>.</p>
                 </div>
 
-                <div className="flex items-center gap-x-12 py-2">
+                <div className="flex items-center gap-x-12 py-2 md:flex-col">
 
                     <BlueButton text="Entre em contato" />
 
-                    <div className="text-white flex text-2xl gap-4 cursor-pointer">
+                    <div className="text-white flex text-2xl gap-4 cursor-pointer md:pt-7">
 
 
                         <FaInstagram className="opacity-60 hover:opacity-100" href="www.google" />
@@ -50,7 +50,7 @@ export const Hero = () => {
 
             </div>
             
-            <div className="md:h-80 md:w-80 md py-7">
+            <div className="md:h-80 md:w-80 py-7 mm:w-64 mm:w-64">
                 <Image src={ HeroFoto } alt="Foto de portfolio" />
             </div>
 
