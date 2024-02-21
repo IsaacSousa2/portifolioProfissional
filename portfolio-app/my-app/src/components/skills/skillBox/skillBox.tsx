@@ -1,8 +1,10 @@
+import { ReactNode } from "react";
+
 type Props = {
 
     title : string;
     time : string;
-    icon: any;
+    icon: ReactNode;
 
 }
 
@@ -10,9 +12,9 @@ export const Box = ({ title, time, icon } : Props) => {
 
     return(
 
-        <div className="bg-darkBlue flex flex-col">
+        <div className="bg-darkBlue flex flex-col px-4 w-64 h-[95px] py-3 text-lightGray rounded-md font-light">
 
-            <div className="flex">
+            <div className="flex justify-between items-center">
                 <div className="">
                     <h1 className=""> { title } </h1>
                 </div>
@@ -21,7 +23,7 @@ export const Box = ({ title, time, icon } : Props) => {
                 </div>
             </div>
 
-            <div className="">
+            <div className="pt-5">
                 <p className=""> { time } </p>
             </div>
 

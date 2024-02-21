@@ -35,7 +35,7 @@ export const Hero = () => {
 
                     <BlueButton text="Entre em contato" />
 
-                    <div className="text-white flex text-2xl gap-4 cursor-pointer md:pt-7">
+                    <div className="text-white flex text-2xl md:-z-20 gap-4 cursor-pointer md:pt-7">
 
 
                         <FaInstagram className="opacity-60 hover:opacity-100" href="www.google" />
