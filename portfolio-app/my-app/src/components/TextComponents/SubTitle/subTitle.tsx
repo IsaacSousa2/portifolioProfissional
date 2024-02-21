@@ -8,7 +8,7 @@ export const SubTitle = ({text} : Props) => {
 
     return(
 
-        <div className="text-sm text-lightGray ">
+        <div className="px-12 text-sm text-lightGray ">
             <p className="">{text}</p>
         </div>
 

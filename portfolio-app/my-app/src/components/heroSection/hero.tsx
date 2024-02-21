@@ -11,27 +11,27 @@ export const Hero = () => {
 
     return(
 
-        <div className="py-16 px-8 md:px-4 flex items-center justify-between md:flex-col">
+        <div className="py-16 flex items-center justify-between md:flex-col">
 
-            <div className="px-4 md:px-6 ">
+            <div className="">
 
-                <div className="py-2">
+                <div className="">
                     <Comments text="Olá, meu nome é" />
                 </div>
 
-                <div className="pb-2">
+                <div className="">
                     <Title text="Cicero Isaac" />
                 </div>
 
-                <div className="">
-                    <h1 className="text-white">Eu sou um <span className="text-lightBlue">programador</span></h1>
+                <div className="px-12 ">
+                    <h1 className="text-3xl md:text-xl text-white">Eu sou um <span className="text-lightBlue">programador</span></h1>
                 </div>
                 
-                <div className="py-2"> 
+                <div className="px-12 py-[8px]"> 
                     <p className="text-lightGray max-w-[600px] md:max-w-[400px]">Sou uma pessoa impulsionada pela motivação e flexibilidade, pronta para abraçar <span className="text-white">desafios</span> que enriqueçam minha jornada. Nutro uma paixão genuína pelo <span className="text-white">aprendizado</span> constante e me esforço para entregar resultados excepcionais. Com uma atitude positiva e uma <span className="text-white">mentalidade</span> construtiva, estou preparado para deixar uma marca significativa, contribuindo de maneira notável e conquistando feitos <span className="text-white">extraordinários</span>.</p>
                 </div>
 
-                <div className="flex items-center gap-x-12 py-2 md:flex-col">
+                <div className="px-12 md:px-6 flex items-center gap-x-12 py-2 md:flex-col">
 
                     <BlueButton text="Entre em contato" />
 
@@ -50,7 +50,7 @@ export const Hero = () => {
 
             </div>
             
-            <div className="md:h-80 md:w-80 py-7 mm:w-64 mm:w-64">
+            <div className="md:h-80 md:w-80 py-7 mm:w-64 px-12">
                 <Image src={ HeroFoto } alt="Foto de portfolio" />
             </div>
 

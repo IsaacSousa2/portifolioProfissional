@@ -25,7 +25,7 @@ export const ProfissionalSkills = () => {
 
         <div className="">
 
-        <div className="px-12">
+        <div className="">
             <div className="pb-2">
                 <Comments text="conhecimentos" />
             </div>
