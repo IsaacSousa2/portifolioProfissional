@@ -1,7 +1,7 @@
 import { Contact } from "@/components/contact/contact";
 import { Header } from "@/components/headerComponents/header";
 import { Hero } from "@/components/heroSection/hero";
-import { Projects } from "@/components/projects/projects";
+import { Projects } from "@/components/projects/Component/projects";
 import { ProfissionalSkills } from "@/components/skills/skillComponent/profissionalskills";
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
           <Header />
           <Hero />
           <ProfissionalSkills />
-          <Contact />
+          <Projects />
 
     </div>
   );

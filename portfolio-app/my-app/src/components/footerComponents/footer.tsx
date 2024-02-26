@@ -1,5 +1,4 @@
 import { IBM_Plex_Mono, Poppins } from "next/font/google";
-import Image from "next/image";
 import { FaHeart } from "react-icons/fa";
 const plex = IBM_Plex_Mono({ subsets: ["latin"], weight:['300', '500', '700'] })
 

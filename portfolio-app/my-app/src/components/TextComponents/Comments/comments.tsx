@@ -11,7 +11,7 @@ export const Comments = ({text} : Props) => {
 
     return(
 
-        <div className="px-12 text-lightBlue text-sm">
+        <div className="px-12 py-[8px] text-lightBlue text-sm">
             <p className={plex.className}>//{text}</p>
         </div>
 

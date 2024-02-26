@@ -26,13 +26,13 @@ export const ProfissionalSkills = () => {
         <div className="">
 
         <div className="">
-            <div className="pb-2">
+            <div className="">
                 <Comments text="conhecimentos" />
             </div>
-            <div className="pb-2">
+            <div className="">
                 <Title text="Competências profissionais" />
             </div>
-            <div className="pb-2">
+            <div className="">
                 <SubTitle text="Aqui estão algumas das habilidades nas quais tenho trabalhado nos últimos 3 anos." />
             </div>
 
@@ -53,8 +53,8 @@ export const ProfissionalSkills = () => {
                 <Box title="Git" time="2 anos de experiência" icon={<FaGitAlt />} />
                 <Box title="Github" time="2 anos de experiência" icon={<FaGithub />} />
                 <Box title="MySQL" time="6 meses de experiência" icon={<TbBrandMysql />} />
-                <Box title="TailwindCSS" time="1 anos de experiência" icon={<SiTailwindcss />} />
-                <Box title="React" time="1 anos de experiência" icon={<IoLogoReact />} />
+                <Box title="TailwindCSS" time="1 ano de experiência" icon={<SiTailwindcss />} />
+                <Box title="React" time="1 ano de experiência" icon={<IoLogoReact />} />
                 <Box title="ReactNative" time="4 meses de experiência" icon={<TbBrandReactNative />} />
                 <Box title="Photoshop" time="2 meses de experiência" icon={<SiAdobephotoshop />} />
                 <Box title="Firebase" time="6 meses de experiência" icon={<SiFirebase />} />
