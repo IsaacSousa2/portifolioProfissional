@@ -26,6 +26,7 @@ export const Projects = () => {
                 <ProjectBox
                 title="Teste"
                 text="loremnvasjnvklsMNKLVWNVJIWAUVJWNVJHBAWJKVNJABSVBASJKLVBJHbkjbknfjkle svsjklncvjkwnvklwdvbhjwvnjkwd vwv bwivn wjkvwjk vjd"
+                tag="Teste"
                 img={PImage}
                 />
 

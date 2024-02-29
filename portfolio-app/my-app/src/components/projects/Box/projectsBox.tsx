@@ -1,16 +1,16 @@
 import Image, { StaticImageData } from "next/image";
-import { Tag } from "@/components/projects/Box/tag";
 
 type Props = {
 
     title: string;
+    tag: string;
     text: string;
     img: StaticImageData;
     
 
 }
 
-export const ProjectBox = ({title, text, img}: Props) => {
+export const ProjectBox = ({title, text, tag, img}: Props) => {
 
     return(
 
@@ -21,6 +21,9 @@ export const ProjectBox = ({title, text, img}: Props) => {
             <div>
                 <div>
                     {title}
+                </div>
+                <div className="bg-mediumBlue rounded-md px-2 w-20 flex justify-center items-center h-8 font-light my-3 mx-4">
+                    <h3 className="text-lightBlue">{tag}</h3>
                 </div>
                 <div>
                     {text}
