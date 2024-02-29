@@ -12,6 +12,7 @@ export default function Home() {
           <Hero />
           <ProfissionalSkills />
           <Projects />
+          <Contact />
 
     </div>
   );
