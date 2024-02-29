@@ -46,7 +46,7 @@ export const Contact = () => {
 
             </div>
 
-            <div className="py-10">
+            <div className="pt-10 pb-5">
                 <BlueButton text="Enviar Mensagem" />
             </div>
 

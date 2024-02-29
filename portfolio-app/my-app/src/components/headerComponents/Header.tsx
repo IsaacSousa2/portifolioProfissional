@@ -45,7 +45,7 @@ export const Header = () => {
                             </div>
                         
                             <div>
-                                <Link texto="Conhecimentos" link={"#/"} />
+                                <Link texto="Conhecimentos" link={"about"} />
                             </div>
 
                             <div>
