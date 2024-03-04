@@ -9,24 +9,28 @@ export const Exp = () => {
 
     return(
 
-        <div className="">
-            <div>
+        <div className="flex md:flex-col justify-between h-[1100px]">
+            <div className="">
                 <Comments text="experiencia" />
                 <Title text="Experiências profissionais" />
-                <SubTitle text="Estou sempre aberto a novos desafios e projetos emocionantes. Vamos trabalhar juntos para criar soluções incríveis para sua empresa!" />
+                <SubTitle text="Estou sempre aberto a novos desafios e projetos emocionantes. Vamos trabalhar juntos!" />
             </div>
-            <div>
+            <div className="md:hidden absolute right-[50%]">
                 <Image src={ExpImage} alt="Imagem de linha" />
             </div>
-            <div>
+            <div className="pr-[220px] pl-[100px]">
                 <ExpBox
-                title=""
-                text="" 
-                tag="" 
-                img="" 
-                framework="" 
-                library="" 
-                language=""
+                nameProject="@SADE"
+                work="Desenvolvedor Front-End"
+                date="../Julho../5meses"
+                text="Desenvolvimento e manutenção de interfaces usando React, Next, Tailwind, Typescript, e Figma." 
+                worked="Desenvolvimento e manutenção de interface e design"
+                subTitle="Competências usadas"
+                framework="NextJS"
+                library="TailwindCSS"
+                language="Typescript"
+                design="GIT"
+                tag="Figma" 
                 />
             </div>
         </div>

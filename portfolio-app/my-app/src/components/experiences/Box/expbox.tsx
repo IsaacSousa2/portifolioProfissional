@@ -2,40 +2,58 @@ import { StaticImageData } from "next/image";
 
 type Props = {
 
-    title: string;
+    work: string;
+    date: string;
+    nameProject: string;
+    subTitle: string;
+    text: string;
+    worked: string;
     framework: string;
     library: string;
     language: string;
-    share: string;
     tag: string;
-    text: string;
+    design:string
     //img: StaticImageData;
 
 }
+//framework, library, language, tag, design
 
-export const ExpBox = ({title, text, tag, framework, library, language, share}: Props) => {
+export const ExpBox = ({ text, subTitle, work, date, nameProject, worked, framework, library, language, tag, design}: Props) => {
 
     return(
 
-        <div className="">
+        <div className="flex text-white flex-col w-full max-w-[450px]">
 
-            <div className="">
-
+            <div className="text-lightGray">
+                {nameProject}
             </div>
             <div className="">
-
+                {work}
+            </div>
+            <div className="text-lightGray">
+                {date}
             </div>
             <div className="">
-
+                {text}
             </div>
-            <div className="">
-
+            <div className="text-lightGray">
+                {worked}
             </div>
-            <div className="">
-
+            <div className="text-lightGray">
+                <ul>
+                    <li className="">
+                        {subTitle}
+                    </li>
+                </ul>
             </div>
-            <div className="">
-                
+            <div className=" h-8 font-light my-3 w-full flex items-center justify-center">
+                <div className="flex gap-2 text-xs md:flex-wrap md:px-3">
+                    <h3 className="text-lightBlue bg-mediumBlue rounded-lg px-3 py-1">{framework}</h3>
+                    <h3 className="text-lightBlue bg-mediumBlue rounded-lg px-3 py-1">{library}</h3>
+                    <h3 className="text-lightBlue bg-mediumBlue rounded-lg px-3 py-1">{language}</h3>
+                    <h3 className="text-lightBlue bg-mediumBlue rounded-lg px-3 py-1">{design}</h3>
+                    <h3 className="text-lightBlue bg-mediumBlue rounded-lg px-3 py-1">{tag}</h3>
+                </div>
             </div>
 
         </div>
