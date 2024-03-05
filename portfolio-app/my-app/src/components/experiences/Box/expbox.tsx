@@ -1,4 +1,4 @@
-import { StaticImageData } from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 type Props = {
 
@@ -13,17 +13,20 @@ type Props = {
     language: string;
     tag: string;
     design:string
-    //img: StaticImageData;
+    img: StaticImageData;
 
 }
 //framework, library, language, tag, design
 
-export const ExpBox = ({ text, subTitle, work, date, nameProject, worked, framework, library, language, tag, design}: Props) => {
+export const ExpBox = ({ text, subTitle, work, date, nameProject, worked, framework, library, language, tag, design, img}: Props) => {
 
     return(
 
-        <div className="flex text-white flex-col w-full max-w-[450px]">
+        <div className="flex text-white flex-col w-full max-w-[450px] h-full">
 
+            <div className="absolute pl-96">
+                <Image src={img} alt="Imagem da logo da empresa" />
+            </div>
             <div className="text-lightGray">
                 {nameProject}
             </div>
@@ -46,8 +49,8 @@ export const ExpBox = ({ text, subTitle, work, date, nameProject, worked, framew
                     </li>
                 </ul>
             </div>
-            <div className=" h-8 font-light my-3 w-full flex items-center justify-center">
-                <div className="flex gap-2 text-xs md:flex-wrap md:px-3">
+            <div className="h-8 font-light w-full flex items-center justify-center">
+                <div className="flex gap-2 text-xs md:flex-wrap">
                     <h3 className="text-lightBlue bg-mediumBlue rounded-lg px-3 py-1">{framework}</h3>
                     <h3 className="text-lightBlue bg-mediumBlue rounded-lg px-3 py-1">{library}</h3>
                     <h3 className="text-lightBlue bg-mediumBlue rounded-lg px-3 py-1">{language}</h3>
