@@ -10,16 +10,17 @@ export const Exp = () => {
 
     return(
 
-        <div className="flex xl:flex-col justify-between h-full w-full pr-[200px] md:items-center md:justify-center max-w-[2400px]">
+        <div className="flex xl:flex-col h-full w-full md:items-center justify-between max-w-[1800px] mx-auto">
+
             <div className="">
                 <Comments text="experiencia" />
                 <Title text="Experiências profissionais" />
-                <SubTitle text="Estou sempre aberto a novos desafios e projetos emocionantes. Vamos trabalhar juntos!" />
+                <SubTitle text="Estou sempre aberto a novos desafios e projetos emocionantes." />
             </div>
-            <div className="flex xl:hidden">
+            <div className="absolute right-[50%] xl:hidden">
                 <Image src={ExpImage} alt="Imagem de linha" />
             </div>
-            <div className="md:flex md:flex-col md:gap-y-32">
+            <div className="flex flex-col items-center md:px-8 pr-12">
                 <div className="">
                     <ExpBox
                     img={LogoSade}

@@ -8,7 +8,7 @@ export const Contact = () => {
 
     return(
 
-        <div className="bg-black flex flex-col py-20 justify-center items-center mm:mt-[940px] md:mt-[840px]">
+        <div className="bg-black flex flex-col py-20 justify-center items-center mt-[120px]">
 
             <div className="text-center">
 

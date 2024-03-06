@@ -12,7 +12,7 @@ export const Projects = () => {
         <div>
 
             <div>
-                <div className="px-12 py-14">
+                <div className="py-14">
                     <div className="pb-2">
                         <Comments text="projetos" />
                     </div>

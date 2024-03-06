@@ -22,9 +22,9 @@ export const ExpBox = ({ text, subTitle, work, date, nameProject, worked, framew
 
     return(
 
-        <div className="flex text-white flex-col w-full max-w-[450px] h-full">
+        <div className="flex text-white flex-col w-full max-w-[450px] h-full pr-12 py-[40px]">
 
-            <div className="absolute pl-96">
+            <div className="absolute pl-96 md:pl-80 mm:pl-64">
                 <Image src={img} alt="Imagem da logo da empresa" />
             </div>
             <div className="text-lightGray">
@@ -49,7 +49,7 @@ export const ExpBox = ({ text, subTitle, work, date, nameProject, worked, framew
                     </li>
                 </ul>
             </div>
-            <div className="h-8 font-light w-full flex items-center justify-center">
+            <div className="h-8 font-light w-full flex items-center justify-center md:pt-14">
                 <div className="flex gap-2 text-xs md:flex-wrap">
                     <h3 className="text-lightBlue bg-mediumBlue rounded-lg px-3 py-1">{framework}</h3>
                     <h3 className="text-lightBlue bg-mediumBlue rounded-lg px-3 py-1">{library}</h3>

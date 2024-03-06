@@ -8,7 +8,7 @@ export const Title = ({text} : Props) => {
 
     return(
 
-        <div className="px-12 py-[8px] text-white text-5xl md:text-3xl">
+        <div className="px-12 py-[8px] text-white text-4xl md:text-3xl">
             <h1 className="">{text}</h1>
         </div>
 
