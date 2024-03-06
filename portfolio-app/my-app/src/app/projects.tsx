@@ -1,6 +1,6 @@
 import { Contact } from "@/components/contact/contact"
 import { Footer } from "@/components/footerComponents/footer"
-import { Header } from "@/components/headerComponents/header"
+import { HeaderProjects } from "@/components/headerComponents/headerprojects"
 
 
 export const Projects = () => {
@@ -9,7 +9,7 @@ export const Projects = () => {
 
         <div className="">
 
-            <Header />
+            <HeaderProjects />
             <Contact />
             <Footer />
 

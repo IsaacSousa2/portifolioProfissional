@@ -7,7 +7,7 @@ import Image from "next/image"
 import Logo from "@/../../public/Images/HeaderImages/Logo.png"
 import { useState } from "react";
 
-export const Header = () => {
+export const HeaderProjects = () => {
 
     const [ openMenu, setOpenMenu ] = useState(false)
 
@@ -39,25 +39,14 @@ export const Header = () => {
                         {openMenu? <div className="w-screen h-screen bg-black/20 fixed"></div> : <></>}
 
                         <div className={`flex gap-x-4 md:flex-col md:bg-darkBlue md:h-screen md:gap-y-3 md:w-64 md:justify-center ${openMenu? 'md:absolute md:left-0':'md:ml-[-12000px]'}`}>
-
-                            <div>
-                                <Link texto="Sobre" link={"#/"} />
-                            </div>
                         
+
                             <div>
-                                <Link texto="Conhecimentos" link={about} />
+                                <Link texto="Home" link={"#/"} />
                             </div>
 
                             <div>
-                                <Link texto="Projetos" link={"#/"} />
-                            </div>
-
-                            <div>
-                                <Link texto="Contato" link={"#/"} />
-                            </div>
-
-                            <div>
-                                <Link texto="Experiência" link={"#/"} />
+                                <Link texto="Home" link={"#/"} />
                             </div>
 
                             <div className={`flex absolute left-20 md:bottom-1 ${openMenu? 'flex' : 'hidden'}`}>
