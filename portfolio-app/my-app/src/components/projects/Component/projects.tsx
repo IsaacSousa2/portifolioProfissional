@@ -24,7 +24,7 @@ export const Projects = () => {
                     </div>
                 </div>
 
-                <div className="flex items-center justify-center gap-7 xl:flex-col">
+                <div className="flex items-center justify-center gap-7 xl:flex-col md:gap-y-14">
 
                     <ProjectBox
                     img={PImage}

@@ -18,7 +18,7 @@ export const ProjectBox = ({title, text, tag, img, framework, library, language,
 
     return(
 
-        <div className="text-white bg-darkBlue py-6 w-[390px] md:w-[300px] h-[600px] flex flex-col items-center justify-center rounded-md">
+        <div className="text-white bg-darkBlue py-6 w-[390px] md:w-[300px] h-[680px] flex flex-col items-center justify-center rounded-md">
             <div className="w-[370px] h-[220px] md:mb-3 bg-lightBlue flex rounded-md md:w-[260px]">
                 <Image src={img} alt="Imagem do projeto" />
             </div>
