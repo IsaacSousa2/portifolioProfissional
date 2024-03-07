@@ -21,7 +21,7 @@ export const Header = () => {
 
         <header>
 
-            <div className="w-full h-14">
+            <div className="w-full h-14 fixed bg-darkBlue z-40">
 
                 <div className="flex  justify-center items-center">
 
@@ -41,23 +41,23 @@ export const Header = () => {
                         <div className={`flex gap-x-4 md:flex-col md:bg-darkBlue md:h-screen md:gap-y-3 md:w-64 md:justify-center ${openMenu? 'md:absolute md:left-0':'md:ml-[-12000px]'}`}>
 
                             <div>
-                                <Link texto="Sobre" link={"#/"} />
+                                <Link texto="Sobre" link={"#hero"} />
                             </div>
                         
                             <div>
-                                <Link texto="Conhecimentos" link={about} />
+                                <Link texto="Conhecimentos" link={"#skills"} />
                             </div>
 
                             <div>
-                                <Link texto="Projetos" link={"#/"} />
+                                <Link texto="Projetos" link={"/projectsPage"} />
                             </div>
 
                             <div>
-                                <Link texto="Contato" link={"#/"} />
+                                <Link texto="Experiência" link={"#experiencias"} />
                             </div>
 
                             <div>
-                                <Link texto="Experiência" link={"#/"} />
+                                <Link texto="Contato" link={"#contact"} />
                             </div>
 
                             <div className={`flex absolute left-20 md:bottom-1 ${openMenu? 'flex' : 'hidden'}`}>

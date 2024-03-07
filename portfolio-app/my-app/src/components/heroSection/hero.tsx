@@ -11,7 +11,7 @@ export const Hero = () => {
 
     return(
 
-        <div className="py-16 flex items-center justify-between md:flex-col">
+        <div className="py-16 flex items-center justify-between md:flex-col" id="hero">
 
             <div className="">
 

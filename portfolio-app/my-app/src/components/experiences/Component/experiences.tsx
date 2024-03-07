@@ -10,7 +10,7 @@ export const Exp = () => {
 
     return(
 
-        <div className="flex xl:flex-col h-full w-full md:items-center justify-between max-w-[1800px] mx-auto">
+        <div className="flex xl:flex-col h-full w-full md:items-center justify-between max-w-[1800px] mx-auto" id="experiencias">
 
             <div className="">
                 <Comments text="experiencia" />

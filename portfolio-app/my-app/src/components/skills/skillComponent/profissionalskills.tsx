@@ -25,7 +25,7 @@ export const ProfissionalSkills = () => {
 
         <div className="">
 
-        <div className="">
+        <div className="" id="skills">
             <div className="">
                 <Comments text="conhecimentos" />
             </div>

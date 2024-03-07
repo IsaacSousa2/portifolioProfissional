@@ -11,7 +11,8 @@ export const Projects = () => {
 
         <div>
 
-            <div>
+            <div id="projects">
+
                 <div className="py-14">
                     <div className="pb-2">
                         <Comments text="projetos" />
@@ -22,6 +23,7 @@ export const Projects = () => {
                     <div className="pb-2">
                         <SubTitle text="Aqui estão alguns dos projetos nos quais tenho desenvolvido nos últimos 2 anos." />
                     </div>
+
                 </div>
 
                 <div className="flex items-center justify-center gap-7 xl:flex-col md:gap-y-14">
