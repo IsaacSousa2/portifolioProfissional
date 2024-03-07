@@ -1,6 +1,6 @@
 'use client'
 
-import { Link } from "./link"; 
+import { LinkComponent } from "./Link"; 
 import { LuMenu } from "react-icons/lu";
 import { IoIosCloseCircleOutline } from "react-icons/io";
 import Image from "next/image"
@@ -41,23 +41,23 @@ export const Header = () => {
                         <div className={`flex gap-x-4 md:flex-col md:bg-darkBlue md:h-screen md:gap-y-3 md:w-64 md:justify-center ${openMenu? 'md:absolute md:left-0':'md:ml-[-12000px]'}`}>
 
                             <div>
-                                <Link texto="Sobre" link={"#hero"} />
+                                <LinkComponent texto="Sobre" link={"#hero"} />
                             </div>
                         
                             <div>
-                                <Link texto="Conhecimentos" link={"#skills"} />
+                                <LinkComponent texto="Conhecimentos" link={"#skills"} />
                             </div>
 
                             <div>
-                                <Link texto="Projetos" link={"/projectsPage"} />
+                                <LinkComponent texto="Projetos" link={"/projects"} />
                             </div>
 
                             <div>
-                                <Link texto="Experiência" link={"#experiencias"} />
+                                <LinkComponent texto="Experiência" link={"#experiencias"} />
                             </div>
 
                             <div>
-                                <Link texto="Contato" link={"#contact"} />
+                                <LinkComponent texto="Contato" link={"#contact"} />
                             </div>
 
                             <div className={`flex absolute left-20 md:bottom-1 ${openMenu? 'flex' : 'hidden'}`}>

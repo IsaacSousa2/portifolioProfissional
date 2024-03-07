@@ -7,7 +7,7 @@ export const Projects = () => {
 
     return(
 
-        <div className="" id="projectsPage">
+        <div className="">
 
             <HeaderProjects />
             <Contact />
