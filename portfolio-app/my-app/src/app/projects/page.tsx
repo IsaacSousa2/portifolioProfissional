@@ -1,8 +1,8 @@
 import { Contact } from "@/components/contact/contact"
 import { Footer } from "@/components/footerComponents/footer"
 import { HeaderProjects } from "@/components/headerComponents/headerprojects"
+import { HeroProjects1 } from "@/components/projectsHero/HeroProjects"
 import { List } from "@/components/projectsList/Component/List"
-import { HeroProjects } from "@/components/projectsPage/herosection/page"
 
 
 export default function ProjectsPage() {
@@ -12,7 +12,7 @@ export default function ProjectsPage() {
         <div className="">
 
             <HeaderProjects />
-            <HeroProjects />
+            <HeroProjects1 />
             <List />
             <Contact />
             <Footer />

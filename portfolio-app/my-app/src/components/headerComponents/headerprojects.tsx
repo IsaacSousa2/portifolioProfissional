@@ -1,10 +1,6 @@
 'use client'
 
-<<<<<<< HEAD
 import { LinkComponent } from "./Link"; 
-=======
-import { LinkComponent } from "./link"; 
->>>>>>> 77a35d12208228e0c955a17f623504693895c8a2
 import { LuMenu } from "react-icons/lu";
 import { IoIosCloseCircleOutline } from "react-icons/io";
 import Image from "next/image"
@@ -50,11 +46,7 @@ export const HeaderProjects = () => {
                             </div>
 
                             <div>
-<<<<<<< HEAD
                                 <LinkComponent texto="Projetos" link={"#projects"} />
-=======
-                                <LinkComponent texto="Projects" link={"#projects"} />
->>>>>>> 77a35d12208228e0c955a17f623504693895c8a2
                             </div>
 
                             <div className={`flex absolute left-20 md:bottom-1 ${openMenu? 'flex' : 'hidden'}`}>

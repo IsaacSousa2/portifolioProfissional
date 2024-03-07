@@ -3,7 +3,7 @@ import { SubTitle } from "@/components/TextComponents/SubTitle/subTitle"
 import { Title } from "@/components/TextComponents/Titles/title"
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa"
 
-export const HeroProjects = () => {
+export const HeroProjects1 = () => {
 
     return(
 
