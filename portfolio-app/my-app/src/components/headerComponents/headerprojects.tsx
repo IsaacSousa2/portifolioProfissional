@@ -1,6 +1,6 @@
 'use client'
 
-import { Link } from "./link"; 
+import { LinkComponent } from "./link"; 
 import { LuMenu } from "react-icons/lu";
 import { IoIosCloseCircleOutline } from "react-icons/io";
 import Image from "next/image"
@@ -42,11 +42,11 @@ export const HeaderProjects = () => {
                         
 
                             <div>
-                                <Link texto="Home" link={"#/"} />
+                                <LinkComponent texto="Home" link={"/"} />
                             </div>
 
                             <div>
-                                <Link texto="Home" link={"#/"} />
+                                <LinkComponent texto="Projects" link={"#projects"} />
                             </div>
 
                             <div className={`flex absolute left-20 md:bottom-1 ${openMenu? 'flex' : 'hidden'}`}>
