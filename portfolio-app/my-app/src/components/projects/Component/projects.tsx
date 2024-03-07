@@ -65,10 +65,12 @@ export const Projects = () => {
 
             </div>
 
-            <div className="text-white flex gap-2 font-light text-center items-center cursor-pointer py-7 justify-start pl-32">
-                <h2 className="text-lightGray">Se interessou? <span className="text-white ">Ver todos </span></h2>
-                <FaArrowRight className="" />
-            </div>
+            <a href="projects">
+                <div className="text-white flex gap-2 font-light text-center items-center cursor-pointer py-7 justify-start pl-32">
+                    <h2 className="text-lightGray">Se interessou? <span className="text-white ">Ver todos </span></h2>
+                    <FaArrowRight className="" />
+                </div>
+            </a>
 
         </div>
 

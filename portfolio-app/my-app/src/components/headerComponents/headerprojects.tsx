@@ -42,11 +42,11 @@ export const HeaderProjects = () => {
                         
 
                             <div>
-                                <LinkComponent texto="Home" link={"#/"} />
+                                <LinkComponent texto="Home" link={"/"} />
                             </div>
 
                             <div>
-                                <LinkComponent texto="Projetos" link={"#/"} />
+                                <LinkComponent texto="Projetos" link={"#projects"} />
                             </div>
 
                             <div className={`flex absolute left-20 md:bottom-1 ${openMenu? 'flex' : 'hidden'}`}>
