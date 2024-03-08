@@ -9,7 +9,7 @@ export default function ProjectsPage() {
 
     return(
 
-        <div className="bg-gradient-to-t from-lightBlue to-darkBlue">
+        <div className="bg-gradient-to-tr from-black to-darkBlue">
 
             <HeaderProjects />
             <HeroProjects1 />

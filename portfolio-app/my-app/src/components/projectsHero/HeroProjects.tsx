@@ -7,7 +7,7 @@ export const HeroProjects1 = () => {
 
     return(
 
-        <div className="items-center justify-center text-center flex flex-col h-[450px]">
+        <div className="items-center justify-center text-center flex flex-col h-[450px] bg-gradient-to-tr from-darkBlue to-blue-600/20">
 
             <div className="flex flex-col w-full max-w-[630px]">
                 <div>
