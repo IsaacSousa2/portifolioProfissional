@@ -14,8 +14,8 @@ export const Box = ({img, text, title} : Props) => {
     return(
 
         <div className="text-lightGray bg-darkBlue h-[320px] w-full max-w-[1840px] rounded-md mx-auto flex items-center justify-center">
-            <div className="text-white font-bold flex absolute">
-                <RiLink className='text-lightBlue text-[21px]'/>
+            <div className="text-white font-bold flex absolute mb-56 mr-72">
+                <RiLink className='text-lightBlue text-[21px] mx-1'/>
                 {title}
             </div>
             <div className="flex items-center justify-center">
